@@ -94,8 +94,8 @@ pip install requests beautifulsoup4 python-dotenv
 * Run the python command specifying any additional variable (see below)
   
 ```bash
-python azure_retirement_checker.py --output-format csv
-python azure_retirement_checker.py --subscription-id <SUBSCRIPTION_ID> --silent
+python retirement_checker.py --output-format csv
+python retirement_checker.py --subscription-id <SUBSCRIPTION_ID> --silent
 ```
 
 
