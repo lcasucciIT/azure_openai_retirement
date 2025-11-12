@@ -90,6 +90,7 @@ pip install requests beautifulsoup4 python-dotenv
 ## To execute the script
 * Download the files under the same local folder
 * Login into azure using az login
+* Populate the env file accordingly
 * Navigate in the terminal to where the folder directory is
 * Run the python command specifying any additional variable (see below)
   
