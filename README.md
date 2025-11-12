@@ -65,6 +65,7 @@ OPENAI_KEY_2=xyz987654321
 
 * Python 3.9+
 * Azure CLI installed and authenticated
+* BeautifulSoup scraping library
 
 ```bash
 az login
@@ -85,6 +86,18 @@ pip install requests beautifulsoup4 python-dotenv
   (needed to fetch resource metadata and deployments via the Azure REST API)
 
 ---
+
+## To execute the script
+* Download the files under the same local folder
+* Login into azure using az login
+* Navigate in the terminal to where the folder directory is
+* Run the python command specifying any additional variable (see below)
+  
+```bash
+python azure_retirement_checker.py --output-format csv
+python azure_retirement_checker.py --subscription-id <SUBSCRIPTION_ID> --silent
+```
+
 
 ## Script Output
 
@@ -127,6 +140,4 @@ azure-model-retirement-scraper/
 
 ---
 
-If you copy **this exact version** into your `README.md`, it will render cleanly with proper headings, code blocks, and tables in GitHub Preview.
 
-Would you like me to include a short “Usage” section (example command and output snippet) so it looks like a complete GitHub README?
